@@ -1,0 +1,1017 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*,*::after, *::before {
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 962px;
+  width: 100%;
+  /*background-image: url(../images/football_1920.jpg);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.header {
+  background-image: url(../images/football_1920.jpg);
+}
+.header:before{
+  content: "";
+  background-color: #0a0e34;
+  position: absolute;
+  width: 100%;
+  min-height: 962px;
+  opacity: 0.9;
+}
+.header_content {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 962px;
+  position: relative;
+  width: 81%;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 2.3%;
+}
+.logo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+.logo_icon {
+  width: 190px;
+  fill: white;
+
+}
+.title_block {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  width: 100%;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  align-items: center;
+  width: 100%;
+
+}
+.next_title {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 29%;
+
+}
+h1 {
+  display: flex;
+  font-size: 90px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  line-height: 100px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-top: 6%;
+
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 312px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #5e42b0;
+  border-radius: 50px;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+}
+.google_button {
+  margin-left: 3%;
+}
+.button_content{
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+  margin-left: 4%;
+}
+.google_btn_content {
+  margin-left: 10%;
+}
+.button_icon {
+  width: 50px;
+  fill: white;
+  margin-right: 8%;
+}
+
+
+.button_text {
+  text-align: left;
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+
+/**/
+.section{
+  position: relative;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+.wrapper:nth-child(n+3){
+  background-color: #f6f4fa;
+}
+.wrapper:nth-child(n+4){
+  background-color: #5e42b0;
+  color: white;
+}
+.content {
+  width: 48%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+.heading_modul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.main_heading {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #e7e7e7;
+  font-size: 80px;
+  text-transform: uppercase;
+  width: 48%;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+.point {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+
+}
+.num {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+}
+.num_3 {
+  color: #9173e6;
+  margin: 0;
+}
+.underline {
+  border: 3px solid #8f7bc8;
+  border-radius: 4px;
+}
+.underline_3 {
+  border: 2px solid white;
+  border-radius: 4px;
+}
+.heading_block {
+  width: 50%;
+  margin-left: 15px;
+}
+.heading {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  margin: 0;
+}
+.text {
+  width: 80%;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+h3 {
+  font-size: 36px;
+  color: #c1c1c1;
+  text-transform: uppercase;
+}
+.image {
+  position: absolute;
+  top: 2.5%;
+  left: 20%;
+  width: 30%;
+}
+.heading_area{
+  flex-direction: row;
+  margin-left: 10%;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+
+}
+.container:nth-child(n+3){
+  background-color: #f6f4fa;
+
+}
+.container:nth-child(n+4){
+  background-color: #0a0e34;
+  color: white;
+
+}
+.container_content {
+  margin-left: 10%;
+  position: relative;
+  width: 48%;
+  padding-top: 3%;
+  margin-bottom: 2%
+}
+.section_image {
+  position: absolute;
+  right: 7%;
+  top: -8%;
+  width: 51%;
+}
+
+
+/**/
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.card_modul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height: auto;
+}
+
+.card_img {
+  width: 100%;
+  height: 730px;
+  background-image: url(../images/be-active_1024.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.find_contact_img {
+  background-image: url(../images/find-contact_1024.jpg);
+}
+.work_it_img {
+  background-image: url(../images/work-it_960.jpg);
+}
+.text_modul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  padding-top: 24%;
+  padding-bottom: 13%;
+}
+.contact_article{
+  margin-left: 11%;
+  padding-bottom: 24%;
+}
+h2 {
+  color: #e7e7e7;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+.caption {
+  width: 100%;
+}
+.paragraph {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  width: 92%;
+}
+.square {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 170px;
+  height: 156px;
+  background-color: #5e42b0;
+  position: absolute;
+  left: calc(50% - 170px/2);
+  top: calc(50% - 156px);
+
+}
+.count {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #f5f6f7;
+  border-bottom: 5px solid #8f7bc8;
+}
+
+/* Footer */
+.footer {
+  background-image: url(../images/game_1920.jpg);
+}
+
+.footer_content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  min-height: 962px;
+  position: relative;
+  width: 100%;
+  padding-top: 3%;
+  justify-content: center;
+}
+
+.footer:before{
+  content: "";
+  background-color:  #0a0e34;
+  position: absolute;
+  width: 100%;
+  min-height: 962px;
+  opacity: 0.9;
+}
+
+.app_block {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-top: 9%;
+}
+
+.app_button_area{
+  margin-right: 10px;
+}
+
+.download_app_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 134px;
+  height: 137px;
+  background: #5e42b0;
+  border-radius: 20px;
+}
+
+.logo_icon_app {
+  width: 100px;
+  fill: white;
+}
+
+.download_text {
+  margin-left: 30px;
+}
+
+.app_head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  margin-left: 5px;
+  line-height: 90px;
+}
+
+.app_text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  color: #a496ca;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0 0 0 7px;
+  /*margin-left: 7px;*/
+}
+
+.footer_buttons {
+  margin-top: 5%;
+  margin-bottom: 11%;
+}
+
+@media (min-width: 641px) and (max-width: 960px){
+  .header {
+    background-image: url(../images/football_1280.jpg);
+    height: 962px;
+  }
+
+  .header_content {
+    width: 85%;
+  }
+
+  .logo {
+    padding-top: 4%;
+  }
+
+  .title_block {
+    width: 92%;
+    margin-top: 12%;
+    margin-bottom: 26%;
+  }
+
+  h1 {
+    font-size: 64px;
+    margin-bottom: 0;
+    line-height: 75px;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .next_title {
+    width: 100%;
+    margin-left: 17%;
+  }
+
+  .buttons {
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .button {
+    width: 312px;
+    padding: 17px;
+  }
+
+  .button_content {
+
+  }
+
+  .google_button{
+    margin-left: 5%;
+  }
+
+  .button_icon {
+    width: 42px;
+  }
+
+  .heading_modul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .content {
+    width: 62%;
+    padding-top: 3%;
+  }
+
+  .text {
+    width: 90%;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+
+  .main_heading {
+    width: 62%;
+    padding-top: 2%;
+  }
+
+  .growth_point{
+    padding-top: 5%;
+  }
+
+  .heading_block {
+    width: 50%;
+    margin-left: 15px;
+  }
+
+  .heading {
+    font-size: 34px;
+    margin: 1% 0 0 0;
+    /*margin-top: 1%;*/
+  }
+
+  h3 {
+    font-size: 36px;
+    color: #c1c1c1;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  .image {
+    top: 12%;
+    left: -21%;
+    width: 57%;
+  }
+
+  .heading_area {
+    margin-left: 4%;
+  }
+
+  .container_content {
+    width: 60%;
+    margin-left: 4%;
+    margin-bottom: 3.5%;
+  }
+
+  .section_image {
+    right: 0;
+    top: 0;
+    width: 55%;
+  }
+
+  .card_modul {
+    width: 100%;
+  }
+
+  .card_img {
+    width: 100%;
+    height: 581px;
+    background-image: url(../images/be-active_960.jpg);
+  }
+
+  .find_contact_img {
+    background-image: url(../images/find-contact_960.jpg);
+
+  }
+  .work_it_img{
+    background-image: url(../images/work-it_960.jpg);
+  }
+
+  .card_modul:nth-child(n){
+    order: 1;
+  }
+
+  .text_modul:nth-child(n){
+    order: 2;
+  }
+
+  .text_modul {
+    width: 100%;
+    height: auto;
+  }
+
+  .article {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 92%;
+  }
+
+  .contact_article{
+    margin-left: 0;
+    padding-bottom: 8%;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .paragraph {
+    font-size: 24px;
+    line-height: 1em;
+    padding-bottom: 2%;
+  }
+
+  .square {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 116px;
+    height: 116px;
+    background-color: #5e42b0;
+    left: 4.2%;
+    top: 54%;
+  }
+
+  .find_cont_square {
+    top: 53%;
+  }
+
+  .work_it_square {
+    top: 52%;
+  }
+
+  .footer {
+    height: 960px;
+    width: 100%;
+    background-image: url(../images/game_1280.jpg?raw=true);
+  }
+  .footer:before {
+    content: "";
+    width: 100%;
+    min-height: 960px;
+  }
+
+  .footer_content {
+    min-height: 960px;
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .app_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    margin-top: 0;
+  }
+
+  .app_button_area {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+    margin-bottom: 10.5%;
+  }
+
+  .download_text {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 30%;
+  }
+
+  .app_head_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .app_text_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .app_text {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 640px){
+  .header {
+    height: 566px;
+    min-width: 320px;
+    width: 100%;
+    background-image: url(../images/football_767.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .header:before{
+    content: "";
+    min-width: 320px;
+    width: 100%;
+    min-height: 566px;
+  }
+
+  .header_content {
+    min-height: 566px;
+    width: 90%;
+  }
+
+  .logo {
+    padding-top: 9%;
+  }
+
+  .logo_icon {
+    width: 135px;
+  }
+
+  .title{
+
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 1.1em;
+  }
+
+  .title_block {
+    width: 100%;
+    padding-top: 10%;
+  }
+
+  .next_title{
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-top: 20px;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+
+  .button {
+    margin-bottom: 10px;
+    width: 285px;
+    height: 36px;
+    padding: 9px;
+    margin-left: 2%;
+  }
+
+  .button_content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: flex-start;
+    margin-left: 12%;
+  }
+
+  .button_icon {
+    width: 23px;
+  }
+
+  .button_text {
+    font-size: 10px;
+  }
+
+  .card_modul {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+    margin-top: 17%;
+    margin-bottom: 8%;
+    padding-left: 6%;
+  }
+
+  .wrapper, .container {
+    background-color: #fafafa;
+  }
+
+  .heading_block {
+    width: 80%;
+  }
+
+  .main_heading {
+    width: 100%;
+    font-size: 50px;
+    padding-left: 5%;
+    margin-bottom: 75%;
+    margin-top: 3%;
+  }
+
+  .heading {
+    font-size: 23px;
+  }
+
+  .num {
+    font-size: 13px;
+  }
+
+  .underline {
+    border: 2px solid #8f7bc8;
+  }
+
+  .underline_3 {
+    border: 1px solid white;
+  }
+
+  .text{
+    font-size: 15px;
+    width: 95%;
+    line-height: 1.3em;
+  }
+
+  .container_content {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 16.5%;
+    margin-bottom: 10%;
+  }
+
+  .heading_area {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .image {
+    top: 8%;
+    left: 22%;
+    width: 60%;
+  }
+
+  .section_image {
+    right: 2%;
+    top: 8%;
+    width: 96%;
+  }
+
+  .card_img {
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/be-active_640.jpg);
+  }
+
+  .card_modul:nth-child(n){
+    order: 1;
+  }
+
+  .text_modul:nth-child(n){
+    order: 2;
+  }
+
+  .find_contact_img {
+    background-image: url(../images/find-contact_640.jpg);
+    height: 354px;
+  }
+
+  .work_it_img{
+    background-image: url(../images/work-it_640.jpg);
+    height: 353px;
+  }
+
+  .text_modul {
+    width: 100%;
+    height: auto;
+  }
+
+  .article {
+    padding-top: 4%;
+    padding-bottom: 15%;
+    width: 85%
+  }
+
+  .contact_article {
+    margin-left: 0;
+    padding-bottom: 17%;
+  }
+
+  .caption {
+    margin-top: 5%;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    width: 98%;
+  }
+
+  .square {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-width: 70px;
+    height: 70px;
+    left: 6.3%;
+    top: 52%;
+  }
+
+  .find_cont_square {
+    top: 54%;
+  }
+
+  .work_it_square {
+    top: 50.5%;
+  }
+
+  .count {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f5f6f7;
+    border-bottom: 3px solid #8f7bc8;
+  }
+
+  .footer {
+    height: 566px;
+    min-width: 320px;
+    width: 100%;
+    background-image: url(../images/game_767.jpg);
+  }
+
+  .footer:before {
+    content: "";
+    min-width: 320px;
+    width: 100%;
+    min-height: 566px;
+  }
+
+  .footer_content {
+    min-height: 566px;
+    width: 100%;
+  }
+
+  .app_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+  }
+
+  .app_button_area {
+    margin-top: 18%;
+    margin-bottom: 15%;
+  }
+
+  .download_app_button {
+    width: 74px;
+    height: 74px;
+  }
+
+  .logo_icon_app {
+    width: 58px;
+  }
+
+  .download_text {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 15%;
+  }
+
+  .app_head_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .app_head {
+    font-size: 32px;
+    line-height: 1.5em;
+  }
+
+  .app_text_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .app_text {
+    font-size: 14px;
+  }
+
+  .logo_icon {
+    width: 137px;
+    fill: white;
+  }
+}
