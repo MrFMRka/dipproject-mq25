@@ -348,6 +348,7 @@ h2 {
 }
 
 /*=== Footer ===*/
+
 .footer {
   background-image: url(../images/game_1920.jpg);
 }
@@ -641,7 +642,7 @@ h2 {
     margin-left: 15px;
   }
   .heading {
-    font-size: 34px;
+    font-size: 3.55vw;
     margin: 1% 0 0 0;
     /*margin-top: 1%;*/
   }
@@ -707,6 +708,7 @@ h2 {
   }
   h2 {
     margin-bottom: 0;
+    font-size: 9.8vw;
   }
   .paragraph {
     font-size: 4.2vw;
@@ -793,57 +795,32 @@ h2 {
   }
   .header {
     height: 566px;
-    min-width: 320px;
-    width: 100%;
     background-image: url(../images/football_767.jpg);
-    background-size: cover;
-    background-position: center center;
   }
-
   .header:before{
-    content: "";
-    min-width: 320px;
-    width: 100%;
     min-height: 566px;
   }
-
   .header_content {
     min-height: 566px;
     width: 90%;
   }
-
   .logo {
     padding-top: 9%;
   }
-
   .logo_icon {
     width: 135px;
   }
-
-  .title{
-
-  }
-
   h1 {
     font-size: 28px;
     line-height: 1.1em;
   }
-
   .title_block {
-    width: 100%;
     padding-top: 10%;
   }
-
   .next_title{
-    flex-wrap: wrap;
     margin-left: 15%;
     margin-top: 20px;
   }
-
-  .buttons {
-    width: 100%;
-  }
-
   .button {
     margin-bottom: 10px;
     width: 285px;
@@ -851,42 +828,32 @@ h2 {
     padding: 9px;
     margin-left: 2%;
   }
-
   .button_content{
-    display: flex;
     flex-wrap: wrap;
     width: 60%;
-    justify-content: flex-start;
     margin-left: 12%;
   }
-
   .button_icon {
     width: 23px;
   }
-
   .button_text {
     font-size: 10px;
   }
-
   .card_modul {
     width: 100%;
   }
-
   .content {
     width: 100%;
     margin-top: 17%;
     margin-bottom: 8%;
     padding-left: 6%;
   }
-
   .wrapper, .container {
     background-color: #fafafa;
   }
-
   .heading_block {
     width: 80%;
   }
-
   .main_heading {
     width: 100%;
     font-size: 50px;
@@ -894,202 +861,158 @@ h2 {
     margin-bottom: 75%;
     margin-top: 3%;
   }
-
   .heading {
     font-size: 23px;
   }
-
   .num {
     font-size: 13px;
   }
-
   .underline {
     border: 2px solid #8f7bc8;
   }
-
   .underline_3 {
     border: 1px solid white;
   }
-
   .text{
     font-size: 15px;
     width: 95%;
     line-height: 1.3em;
   }
-
   .container_content {
     width: 100%;
     margin-left: 5%;
     margin-top: 16.5%;
     margin-bottom: 10%;
   }
-
   .heading_area {
     width: 100%;
     margin-left: 0;
   }
-
   .image {
     top: 8%;
     left: 22%;
     width: 60%;
   }
-
   .section_image {
     right: 2%;
     top: 8%;
     width: 96%;
   }
-
   .card_img {
     width: 100%;
     height: 350px;
     background-image: url(../images/be-active_640.jpg);
   }
-
   .card_modul:nth-child(n){
     order: 1;
   }
-
   .text_modul:nth-child(n){
     order: 2;
   }
-
   .find_contact_img {
     background-image: url(../images/find-contact_640.jpg);
     height: 354px;
   }
-
   .work_it_img{
     background-image: url(../images/work-it_640.jpg);
     height: 353px;
   }
-
   .text_modul {
     width: 100%;
     height: auto;
   }
-
   .article {
     padding-top: 4%;
     padding-bottom: 15%;
     width: 85%
   }
-
   .contact_article {
     margin-left: 0;
     padding-bottom: 17%;
   }
-
   .caption {
     margin-top: 5%;
   }
-
   h2 {
     font-size: 28px;
     margin-bottom: 0;
   }
-
   .paragraph {
     font-size: 16px;
     width: 98%;
   }
-
   .square {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     min-width: 70px;
     height: 70px;
     left: 6.3%;
     top: 52%;
   }
-
   .find_cont_square {
-    top: 54%;
+    top: 51%;
   }
-
   .work_it_square {
-    top: 50.5%;
+    top: 50%;
   }
-
   .count {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     color: #f5f6f7;
     border-bottom: 3px solid #8f7bc8;
   }
-
   .footer {
     height: 566px;
     min-width: 320px;
-    width: 100%;
     background-image: url(../images/game_767.jpg);
   }
-
   .footer:before {
-    content: "";
     min-width: 320px;
-    width: 100%;
     min-height: 566px;
   }
-
   .footer_content {
     min-height: 566px;
     width: 100%;
   }
-
   .app_block {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 95%;
   }
-
   .app_button_area {
     margin-top: 18%;
     margin-bottom: 15%;
   }
-
   .download_app_button {
     width: 74px;
     height: 74px;
   }
-
   .logo_icon_app {
     width: 58px;
   }
-
   .download_text {
     margin-left: 0;
     width: 100%;
     margin-bottom: 15%;
   }
-
   .app_head_area {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
   }
-
   .app_head {
     font-size: 32px;
     line-height: 1.5em;
   }
-
   .app_text_area {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
   }
-
   .app_text {
     font-size: 14px;
   }
-
   .logo_icon {
     width: 137px;
     fill: white;
