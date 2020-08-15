@@ -94,6 +94,7 @@ h1 {
 .buttons {
   display: flex;
   flex-wrap: wrap;
+  /*text-align: center;*/
   justify-content: center;
   align-items: center;
   position: relative;
@@ -217,6 +218,11 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
 }
+/*h3 {
+  font-size: 36px;
+  color: #c1c1c1;
+  text-transform: uppercase;
+}*/
 .image {
   position: absolute;
   top: 2.5%;
@@ -274,6 +280,7 @@ h1 {
 }
 .card_img {
   width: 100%;
+  /*height: 730px;*/
   background-image: url(../images/be-active_1024.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -476,6 +483,7 @@ h2 {
   }
 
   .button {
+    /*width: 16.7vw;*/
     min-width: 270px;
   }
   .google_button {
@@ -489,15 +497,26 @@ h2 {
   h2 {
     font-size: 80px;
   }
+  /*.num {
+    font-size: 0.94vw;
+  }*/
   .heading_block {
     margin-left: 0.8vw;
   }
+
+  /*.text {
+    font-size: 1.05vw;
+  }*/
   .section_image {
     position: absolute;
     right: 3%;
     top: -4%;
     width: 51%;
   }
+  /*.card_img {
+    height: 45.3vw;
+  }*/
+
   .paragraph {
     font-size: 24px;
   }
@@ -507,17 +526,33 @@ h2 {
     left: calc(50% - 8.85vw/2);
     top: calc(50% - 8.3vw);
   }
+  /*.count {
+    font-size: 1.25vw;
+  }*/
 
   /*=== Footer ===*/
   .app_button_area{
     margin-right: 0.52vw;
   }
+  .download_app_button {
+    /*width: 6.8vw;*/
+    /*height: 7.1vw;*/
+  }
   .logo_icon_app {
+    /*width: 5.2vw;*/
     fill: white;
   }
   .download_text {
     margin-left: 1.56vw;
   }
+  .app_head {
+    /*font-size: 4.17vw;*/
+    /*margin-left: 0.26vw;*/
+    /*line-height: 4.69vw;*/
+  }
+  /*.app_text {
+    font-size: 1.6vw;
+  }*/
 }
 
 @media (min-width: 961px) and (max-width: 1100px) {
@@ -530,6 +565,12 @@ h2 {
   h2 {
     font-size: 4.17vw;
   }
+  /*.num {
+    font-size: 0.94vw;
+  }*/
+  /*.heading {
+    font-size: 1.87vw;
+  }*/
   .card_img {
     height: 45.3vw;
   }
@@ -545,7 +586,12 @@ h2 {
   .app_button_area{
     margin-right: 0.52vw;
   }
+  /*.download_app_button {*/
+  /*  width: 6.8vw;*/
+  /*  height: 7.1vw;*/
+  /*}*/
   .logo_icon_app {
+    /*width: 5.2vw;*/
     fill: white;
   }
   .download_text {
@@ -555,7 +601,12 @@ h2 {
   h2.app_head {
     font-size: 9.8vw;
     margin-left: 0.26vw;
+    /*margin-top: 40px;*/
+    /*line-height: 4.69vw;*/
   }
+  /*.app_text {*/
+  /*!*  font-size: 1.6vw;*!*/
+  /*}*/
 }
 
 @media (min-width: 641px) and (max-width: 960px){
@@ -574,6 +625,7 @@ h2 {
   .title_block {
     width: 92%;
     margin: 0;
+    /*margin-bottom: 26%;*/
   }
   h1 {
     font-size: 6.67vw;
@@ -593,6 +645,7 @@ h2 {
     margin: 0;
   }
   .button {
+    /*width: 312px;*/
     padding: 17px;
   }
   .button_content {
@@ -641,6 +694,7 @@ h2 {
   .heading {
     font-size: 3.55vw;
     margin: 1% 0 0 0;
+    /*margin-top: 1%;*/
   }
   h3 {
     font-size: 36px;
@@ -712,6 +766,10 @@ h2 {
     padding-bottom: 2%;
   }
   .square {
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;*/
     min-width: 116px;
     height: 116px;
     background-color: #5e42b0;
@@ -729,6 +787,7 @@ h2 {
     background-image: url(../images/game_1280.jpg);
   }
   .footer_content {
+    /*min-height: 960px;*/
     width: 100%;
     padding-top: 30%;
   }
@@ -745,10 +804,13 @@ h2 {
     width: 100%;
     justify-content: center;
     align-items: center;
+    /*margin-top: 17%;
+    margin-bottom: 10.5%;*/
   }
   .download_text {
     margin-left: 0;
     width: 100%;
+    /*margin-bottom: 30%;*/
     padding-top: 3%;
   }
   .app_head_area {
@@ -774,13 +836,16 @@ h2 {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px){
   body {
     margin: 0;
   }
   .header {
     background-image: url(../images/football_767.jpg);
   }
+  /*.header:before{
+    min-height: 566px;
+  }*/
   .header_content {
     min-height: 566px;
     width: 90%;
@@ -798,7 +863,7 @@ h2 {
   .title_block {
     padding-top: 10%;
   }
-  .next_title {
+  .next_title{
     margin-left: 15%;
     margin-top: 20px;
   }
@@ -809,7 +874,7 @@ h2 {
     padding: 9px;
     margin-left: 2%;
   }
-  .button_content {
+  .button_content{
     flex-wrap: wrap;
     width: 60%;
     margin-left: 12%;
@@ -825,6 +890,8 @@ h2 {
   }
   .content {
     width: 100%;
+    /*margin-top: 17%;*/
+    /*margin-bottom: 8%;*/
     padding-left: 6%;
   }
   .wrapper, .container {
@@ -852,7 +919,7 @@ h2 {
   .underline_3 {
     border: 1px solid white;
   }
-  .text {
+  .text{
     font-size: 15px;
     width: 95%;
     line-height: 1.3em;
@@ -860,6 +927,8 @@ h2 {
   .container_content {
     width: 100%;
     margin-left: 5%;
+    /*margin-top: 16.5%;*/
+    /*margin-bottom: 10%;*/
   }
   .heading_area {
     width: 100%;
@@ -880,17 +949,17 @@ h2 {
     height: 350px;
     background-image: url(../images/be-active_640.jpg);
   }
-  .card_modul:nth-child(n) {
+  .card_modul:nth-child(n){
     order: 1;
   }
-  .text_modul:nth-child(n) {
+  .text_modul:nth-child(n){
     order: 2;
   }
   .find_contact_img {
     background-image: url(../images/find-contact_640.jpg);
     height: 354px;
   }
-  .work_it_img {
+  .work_it_img{
     background-image: url(../images/work-it_640.jpg);
     height: 353px;
   }
@@ -901,7 +970,7 @@ h2 {
   .article {
     padding-top: 4%;
     padding-bottom: 15%;
-    width: 85%;
+    width: 85%
   }
   .contact_article {
     margin-left: 0;
@@ -963,6 +1032,7 @@ h2 {
   .download_text {
     margin-left: 0;
     width: 100%;
+    /*margin-bottom: 15%;*/
   }
   .app_head_area {
     display: flex;
