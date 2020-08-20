@@ -61,13 +61,13 @@
 .logo_icon {
   width: 190px;
   fill: white;
-
+  padding-bottom: 52px;
 }
 .title_block {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10%;
-  width: 100%;
+  /*margin-top: 10%;*/
+  /*width: 100%;*/
 }
 .title {
   display: flex;
@@ -98,7 +98,7 @@ h1 {
   align-items: center;
   position: relative;
   width: 100%;
-  margin-top: 6%;
+  /*margin-top: 6%;*/
 
 }
 .button {
@@ -221,7 +221,7 @@ h1 {
   position: absolute;
   top: 2.5%;
   left: 20%;
-  width: 30%;
+  width: 24%;
 }
 .heading_area{
   flex-direction: row;
@@ -288,23 +288,26 @@ h1 {
 .text_modul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /*justify-content: center;*/
   width: 50%;
 }
 .article {
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
-  padding-top: 20%;
+  width: 100%;
+  padding-top: 261px;
   padding-bottom: 20%;
+  padding-left: 127px;
 }
 .contact_article{
-  margin-left: 11%;
+  /*margin-left: 11%;*/
   padding-bottom: 24%;
+  padding-right: 127px;
 }
 h2 {
   color: #e7e7e7;
   font-size: 80px;
+  line-height: 90px;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -312,12 +315,17 @@ h2 {
 }
 .caption {
   width: 100%;
+  /*padding-top: calc(50% - 270px);*/
 }
 .paragraph {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   letter-spacing: 0.09rem;
   width: 92%;
+  padding-top: 118px;
+}
+p {
+  margin: 0;
 }
 .square {
   display: flex;
@@ -329,7 +337,7 @@ h2 {
   background-color: #5e42b0;
   position: absolute;
   left: calc(50% - 170px/2);
-  top: calc(50% - 156px);
+  top: 211px;
 
 }
 .count {
@@ -349,10 +357,10 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  align-content: space-between;
   height: 100vh;
   position: relative;
   max-width: 1530px;
-  padding-top: 3%;
   justify-content: center;
 }
 .footer:before{
@@ -370,7 +378,8 @@ h2 {
   justify-content: center;
   align-items: center;
   width: 95%;
-  margin-top: 9%;
+  padding-top: 230px;
+  /*margin-top: 9%;*/
 }
 .app_button_area{
   margin-right: 10px;
@@ -417,8 +426,7 @@ h2 {
   margin: 0 0 0 7px;
 }
 .footer_buttons {
-  margin-top: 5%;
-  margin-bottom: 11%;
+  padding-bottom: 262px;
 }
 
 /*=== Адаптивная ===*/
@@ -486,9 +494,9 @@ h2 {
   }
 
   /*== Main ==*/
-  h2 {
+  /*h2 {
     font-size: 80px;
-  }
+  }*/
   .heading_block {
     margin-left: 0.8vw;
   }
@@ -496,17 +504,17 @@ h2 {
     position: absolute;
     right: 3%;
     top: -4%;
-    width: 51%;
+    width: 45%;
   }
   .paragraph {
     font-size: 24px;
   }
-  .square {
+  /*.square {
     min-width: 8.85vw;
     height: 8.3vw;
     left: calc(50% - 8.85vw/2);
     top: calc(50% - 8.3vw);
-  }
+  }*/
 
   /*=== Footer ===*/
   .app_button_area{
@@ -528,16 +536,23 @@ h2 {
     font-size: 4.7vw;
   }
   h2 {
-    font-size: 4.17vw;
+    font-size: 7vw;
   }
-  .card_img {
+  .paragraph {
+    font-size: 24px;
+  }
+  .section_image {
+    right: 3%;
+    top: -4%;
+  }
+  /*.card_img {
     height: 45.3vw;
-  }
+  }*/
   .square {
-    min-width: 8.85vw;
-    height: 8.3vw;
-    left: calc(50% - 8.85vw/2);
-    top: calc(50% - 8.3vw);
+    min-width: 15.4vw;
+    height: 14.19vw;
+    left: calc(50% - 15.4vw/2);
+    top: calc(50% - 14.19vw);
   }
   .count {
     font-size: 2.19vw;
@@ -550,11 +565,15 @@ h2 {
   }
   .download_text {
     margin-left: 1.56vw;
-    padding-top: 3%;
+    /*padding-top: 3%;*/
   }
   h2.app_head {
-    font-size: 9.8vw;
-    margin-left: 0.26vw;
+    font-size: 7.27vw;
+    /*margin-left: 0.26vw;*/
+  }
+  .download_app_button {
+    width: 12.19vw;
+    height: 12.45vw;
   }
 }
 
@@ -570,6 +589,11 @@ h2 {
   }
   .logo {
     padding-top: 4%;
+  }
+  .logo_icon {
+    width: 190px;
+    fill: white;
+    padding-bottom: 0;
   }
   .title_block {
     width: 92%;
@@ -593,7 +617,8 @@ h2 {
     margin: 0;
   }
   .button {
-    padding: 17px;
+    padding: 13px 4px;
+    width: 32.5vw;
   }
   .button_content {
 
@@ -602,7 +627,7 @@ h2 {
     font-size: 1.83vw;
   }
   .google_button{
-    margin-left: 5%;
+    margin-left: 30px;
   }
   .button_icon {
     width: 42px;
@@ -624,7 +649,7 @@ h2 {
     line-height: 1.5em;
   }
   .main_heading {
-    font-size: 10.4vw;
+    font-size: 8.35vw;
     width: 62%;
     padding-top: 2%;
   }
@@ -704,7 +729,7 @@ h2 {
   }
   h2 {
     margin-bottom: 0;
-    font-size: 9.8vw;
+    font-size: 8.35vw;
   }
   .paragraph {
     font-size: 4.2vw;
@@ -716,13 +741,13 @@ h2 {
     height: 116px;
     background-color: #5e42b0;
     left: 4.2%;
-    top: 54%;
+    top: 50%;
   }
   .find_cont_square {
-    top: 53%;
+    top: 49%;
   }
   .work_it_square {
-    top: 50%;
+    top: 48%;
   }
 
   .footer {
@@ -730,7 +755,10 @@ h2 {
   }
   .footer_content {
     width: 100%;
-    padding-top: 30%;
+    /*padding-top: 126px;*/
+  }
+  .footer_logo {
+    padding: 0 0 24px 0;
   }
   .app_block {
     display: flex;
@@ -738,6 +766,7 @@ h2 {
     justify-content: center;
     width: 95%;
     margin-top: 0;
+    padding-top: 126px;
   }
   .app_button_area {
     display: flex;
@@ -768,9 +797,10 @@ h2 {
   }
   .footer_buttons {
     margin: 0;
+    padding-bottom: 55px;
   }
   .app_text {
-    font-size: 36px;
+    font-size: 3.75vw;
   }
 }
 
@@ -782,7 +812,7 @@ h2 {
     background-image: url(../images/football_767.jpg);
   }
   .header_content {
-    min-height: 566px;
+    /*min-height: 566px;*/
     width: 90%;
   }
   .logo {
@@ -807,7 +837,8 @@ h2 {
     width: 285px;
     height: 36px;
     padding: 9px;
-    margin-left: 2%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .button_content {
     flex-wrap: wrap;
@@ -940,22 +971,23 @@ h2 {
     background-image: url(../images/game_767.jpg);
   }
   .footer_content {
-    min-height: 566px;
+    /*min-height: 566px;*/
     width: 100%;
+    padding: 0;
   }
   .app_block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 95%;
+    padding-top: 100px;
   }
-  .app_button_area {
-    margin-top: 18%;
-    margin-bottom: 15%;
-  }
+  /*.app_button_area {
+    margin-top: 15.63vw;
+  }*/
   .download_app_button {
     width: 74px;
     height: 74px;
+  }
+  .footer_buttons {
+    display: block;
+    padding-bottom: 72px;
   }
   .logo_icon_app {
     width: 58px;
@@ -983,8 +1015,12 @@ h2 {
   .app_text {
     font-size: 14px;
   }
+  .footer_logo {
+    padding: 0 0 10px 0;
+  }
   .logo_icon {
     width: 137px;
     fill: white;
+    padding: 0;
   }
 }
